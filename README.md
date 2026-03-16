@@ -70,16 +70,16 @@ We use ShapeNet, ScanObjectNN, ModelNet40 and ShapeNetPart in this work. See [DA
 |  Task | Dataset | Config | Acc.| Download|      
 |  ----- | ----- |-----|  -----| -----|
 |  Pre-training | ShapeNet |[pretrain_dpa.yaml](../cfgs/pretrain_dpa.yaml)| N.A. | [here](https://github.com/your-repo/Point-DPA/releases/download/main/pretrain.pth) |
-|  Classification | ScanObjectNN |[finetune_scan_hardest_dpa.yaml](../cfgs/finetune_scan_hardest_dpa.yaml)| XX.XX%| [here](https://github.com/your-repo/Point-DPA/releases/download/main/scan_hardest.pth)  |
-|  Classification | ScanObjectNN |[finetune_scan_objbg_dpa.yaml](../cfgs/finetune_scan_objbg_dpa.yaml)|XX.XX% | [here](https://github.com/your-repo/Point-DPA/releases/download/main/scan_objbg.pth) |
-|  Classification | ScanObjectNN |[finetune_scan_objonly_dpa.yaml](../cfgs/finetune_scan_objonly_dpa.yaml)| XX.XX%| [here](https://github.com/your-repo/Point-DPA/releases/download/main/scan_objonly.pth) |
-|  Classification | ModelNet40(1k) |[finetune_modelnet_dpa.yaml](../cfgs/finetune_modelnet_dpa.yaml)| XX.XX%| [here](https://github.com/your-repo/Point-DPA/releases/download/main/modelnet_1k.pth) |
-|  Classification | ModelNet40(8k) |[finetune_modelnet_8k_dpa.yaml](../cfgs/finetune_modelnet_8k_dpa.yaml)| XX.XX%| [here](https://github.com/your-repo/Point-DPA/releases/download/main/modelnet_8k.pth) |
-| Part segmentation| ShapeNetPart| [segmentation](../segmentation)| XX.X% mIoU| [here](https://github.com/your-repo/Point-DPA/releases/download/main/part_seg.pth) |
+|  Classification | ScanObjectNN |[finetune_scan_hardest_dpa.yaml](../cfgs/finetune_scan_hardest_dpa.yaml)| 87.03%| [here](https://github.com/your-repo/Point-DPA/releases/download/main/scan_hardest.pth)  |
+|  Classification | ScanObjectNN |[finetune_scan_objbg_dpa.yaml](../cfgs/finetune_scan_objbg_dpa.yaml)|92.03% | [here](https://github.com/your-repo/Point-DPA/releases/download/main/scan_objbg.pth) |
+|  Classification | ScanObjectNN |[finetune_scan_objonly_dpa.yaml](../cfgs/finetune_scan_objonly_dpa.yaml)|89.45%| [here](https://github.com/your-repo/Point-DPA/releases/download/main/scan_objonly.pth) |
+|  Classification | ModelNet40(1k) |[finetune_modelnet_dpa.yaml](../cfgs/finetune_modelnet_dpa.yaml)| 93.52%| [here](https://github.com/your-repo/Point-DPA/releases/download/main/modelnet_1k.pth) |
+
+| Part segmentation| ShapeNetPart| [segmentation](../segmentation)| 85.9% mIoU| [here](https://github.com/your-repo/Point-DPA/releases/download/main/part_seg.pth) |
 
 |  Task | Dataset | Config | 5w10s Acc. (%)| 5w20s Acc. (%)| 10w10s Acc. (%)| 10w20s Acc. (%)|     
 |  ----- | ----- |-----|  -----| -----|-----|-----|
-|  Few-shot learning | ModelNet40 |[fewshot_dpa.yaml](../cfgs/fewshot_dpa.yaml)| XX.X ± X.X| XX.X ± X.X| XX.X ± X.X| XX.X ± X.X| 
+|  Few-shot learning | ModelNet40 |[fewshot_dpa.yaml](../cfgs/fewshot_dpa.yaml)| 96.8 ± 2.6|98.4 ± 1.3| 92.5 ± 4.4| 94.7 ± 2.8| 
 
 ## 4. Point-DPA Pre-training
 To pretrain Point-DPA on ShapeNet training set, run the following command. If you want to try different models or masking ratios etc., first create a new config file, and pass its path to --config.
