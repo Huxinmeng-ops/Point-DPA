@@ -1,6 +1,7 @@
 # Point-DPA
 
-## [Your Paper Title], [Conference/Journal Year] ([ArXiv Link])
+## [Point-DPA: Unifying Contrastive and Generative Learning 1
+for 3D Point Cloud Understanding via Dynamic Prototypes], [Conference/Journal Year] ([ArXiv Link])
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/your-paper-title/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=your-paper-title)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/your-paper-title/3d-point-cloud-classification-on-modelnet40)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40?p=your-paper-title)
