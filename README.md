@@ -13,7 +13,7 @@ is tasked with predicting spatially dense prototype distributions from masked in
 through a synergistic dual-objective mechanism: Cross-view Global Alignment to enforce instance-level invariance, and Local Patch Alignment to ensure robust structural
 reasoning. Extensive experiments demonstrate that Point-DPA achieves a competitive
 classification accuracy of 93.52% on ModelNet40 and establishes a new state-of-the art of 87.03% on the real-world ScanObjectNN dataset. This significant improvement
-confirms that our method learns robust semantic representations resilient to noise, effectively overcoming the limitations of previous reconstruction-based paradigms. The
+confirms that our method learns robust semantic representations resilient to noise, effectively overcoming the limitations of previous reconstruction-based paradigms. The
 source code and pre-trained models will be made publicly available upon publication.]
 
 <div  align="center">    
