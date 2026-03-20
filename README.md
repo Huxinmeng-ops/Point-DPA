@@ -2,19 +2,9 @@
 
 ## [Point-DPA: Unifying Contrastive and Generative Learning for 3D Point Cloud Understanding via Dynamic Prototypes], [Conference/Journal Year] ([ArXiv Link])
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/your-paper-title/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=your-paper-title)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/your-paper-title/3d-point-cloud-classification-on-modelnet40)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40?p=your-paper-title)
 
-[we propose Point-DPA, a unified single-stage framework
-via Masked Dynamic Prototype Alignment. Unlike coordinate-based approaches or
-those requiring complex offline tokenizers, we design an asymmetric Teacher-Student
-architecture where the Teacher maintains an Evolving Prototype Memory to dynamically update high-level semantic targets online. Specifically, the Student network
-is tasked with predicting spatially dense prototype distributions from masked inputs
-through a synergistic dual-objective mechanism: Cross-view Global Alignment to enforce instance-level invariance, and Local Patch Alignment to ensure robust structural
-reasoning. Extensive experiments demonstrate that Point-DPA achieves a competitive
-classification accuracy of 93.52% on ModelNet40 and establishes a new state-of-the art of 87.03% on the real-world ScanObjectNN dataset. This significant improvement
-confirms that our method learns robust semantic representations resilient to noise, effectively overcoming the limitations of previous reconstruction-based paradigms. The
-source code and pre-trained models will be made publicly available upon publication.]
+
+1231
 
 <div  align="center">    
  <img src="./figure/net.jpg" width = "666"  align=center />
@@ -132,12 +122,12 @@ Our codes are built upon [Point-MAE](https://github.com/Pang-Yatian/Point-MAE), 
 ## Reference
 
 ```
-@inproceedings{your2024point,
-  title={Point-DPA: [Your Paper Title]},
-  author={Your Name and Co-authors},
-  booktitle={Conference Name},
-  pages={XX--XX},
-  year={2024},
-  organization={Publisher}
+@article{cao2026point,
+  title={Point-DPA: Unifying contrastive and generative learning for 3D point cloud understanding via dynamic prototypes},
+  author={Cao, Xin and Hu, Xinmeng and Wang, Yinan and Li, Kang and Su, Linzhi and Liu, Yangyang and Zhao, Fengjun},
+  journal={Information Sciences},
+  pages={123378},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
