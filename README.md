@@ -5,10 +5,7 @@
 ## Point-DPA: Unifying Contrastive and Generative Learning for 3D Point Cloud Understanding via Dynamic Prototypes
 
 Xin Cao,Xinmeng Hu, Yinan Wang, Kang Li , Linzhi Su※ , Yangyang Liu, Fengjun Zhao※ 
-
-<div  align="center">    
- <img src="./figure/net.jpg" width = "666"  align=center />
-</div>
+Information Sciences Volume 744, 15 July 2026, 123378
 
 ## 1. Requirements
 PyTorch >= 1.7.0 < 1.11.0;
