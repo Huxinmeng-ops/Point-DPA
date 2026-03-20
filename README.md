@@ -61,7 +61,7 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 
 ## 2. Datasets
 
-We use ShapeNet, ScanObjectNN, ModelNet40 and ShapeNetPart in this work. See [DATASET.md](../DATASET.md) for details.
+We use ShapeNet, ScanObjectNN, ModelNet40 and ShapeNetPart in this work. 
 
 ## 3. Point-DPA Models
 |  Task | Dataset | Acc.|  
