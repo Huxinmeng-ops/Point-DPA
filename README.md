@@ -86,7 +86,7 @@ We use ShapeNet, ScanObjectNN, ModelNet40 and ShapeNetPart in this work. See [DA
 | Part segmentation| ShapeNetPart| 85.9% mIoU|
 
 |  Task | Dataset | 5w10s Acc. (%)| 5w20s Acc. (%)| 10w10s Acc. (%)| 10w20s Acc. (%)|     
-|  ----- | ----- -----| -----|-----|-----|
+|  ----- | -----| ----- -----|-----|-----|
 |  Few-shot learning | ModelNet40 | 96.8 ± 2.6|98.4 ± 1.3| 92.5 ± 4.4| 94.7 ± 2.8| 
 
 ## 4. Point-DPA Pre-training
